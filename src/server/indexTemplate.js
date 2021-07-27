@@ -1,3 +1,4 @@
+export const indexTemplate = (content) => `
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +9,9 @@
 </head>
 <body>
     <div id="reactRoot">
-        
+        ${content}
     </div>
+    <script src="/static/client.js"></script>
 </body>
 </html>
+`;

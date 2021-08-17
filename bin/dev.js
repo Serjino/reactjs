@@ -49,7 +49,7 @@ compiler.run((err) => {
         script: path.resolve(__dirname, '../dist/server/server.js'),
         watch: [
             path.resolve(__dirname, '../dist/server/'),
-            path.resolve(__dirname, '../dist/client/')  
+            path.resolve(__dirname, '../dist/client/'),
         ]
     })
 })

@@ -1,0 +1,11 @@
+$black: #333;
+$white: #fff;
+$whiteLightness: 100%;
+$orange: #CC6633;
+$green: #A4CC33;
+$greyF3: hsl(0, 0%, calc(#{$whiteLightness - 5%}));
+$greyF4: hsl(0, 0%, calc(#{$whiteLightness - 4%}));
+$greyD9: hsl(0, 0%, calc(#{$whiteLightness - 15%}));
+$greyC4: hsl(0, 0%, calc(#{$whiteLightness - 23%}));
+$grey9: hsl(0, 0%, calc(#{$whiteLightness - 40%}));
+$grey6: hsl(0, 0%, calc(#{$whiteLightness - 60%}));

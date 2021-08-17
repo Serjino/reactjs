@@ -8,9 +8,7 @@ export const indexTemplate = (content) => `
     <title>Reddit</title>
 </head>
 <body>
-    <div id="reactRoot">
-        ${content}
-    </div>
+    <div id="reactRoot">${content}</div>
     <script src="/static/client.js"></script>
 </body>
 </html>

@@ -130,7 +130,287 @@ eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod)
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Card = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar card_scss_1 = __importDefault(__webpack_require__(/*! ./card.scss */ \"./src/shared/CardsList/Card/card.scss\"));\r\nvar MainInfo_1 = __webpack_require__(/*! ./MainInfo */ \"./src/shared/CardsList/Card/MainInfo/index.ts\");\r\nvar Preview_1 = __webpack_require__(/*! ./Preview */ \"./src/shared/CardsList/Card/Preview/index.ts\");\r\nvar Title_1 = __webpack_require__(/*! ./Title */ \"./src/shared/CardsList/Card/Title/index.ts\");\r\nfunction Card() {\r\n    return (react_1.default.createElement(\"li\", { className: card_scss_1.default.card },\r\n        react_1.default.createElement(\"article\", null,\r\n            react_1.default.createElement(MainInfo_1.MainInfo, null),\r\n            react_1.default.createElement(Title_1.Title, null),\r\n            react_1.default.createElement(Preview_1.Preview, null))));\r\n}\r\nexports.Card = Card;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Card.tsx?");
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Card = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar card_scss_1 = __importDefault(__webpack_require__(/*! ./card.scss */ \"./src/shared/CardsList/Card/card.scss\"));\r\nvar MainInfo_1 = __webpack_require__(/*! ./MainInfo */ \"./src/shared/CardsList/Card/MainInfo/index.ts\");\r\nvar Preview_1 = __webpack_require__(/*! ./Preview */ \"./src/shared/CardsList/Card/Preview/index.ts\");\r\nvar Title_1 = __webpack_require__(/*! ./Title */ \"./src/shared/CardsList/Card/Title/index.ts\");\r\nvar Controls_1 = __webpack_require__(/*! ./Controls */ \"./src/shared/CardsList/Card/Controls/index.ts\");\r\nvar Menu_1 = __webpack_require__(/*! ./Menu */ \"./src/shared/CardsList/Card/Menu/index.ts\");\r\nfunction Card() {\r\n    return (react_1.default.createElement(\"li\", { className: card_scss_1.default.card },\r\n        react_1.default.createElement(\"a\", { href: \"#post-url\", className: card_scss_1.default.postLink }),\r\n        react_1.default.createElement(\"article\", { className: card_scss_1.default.article },\r\n            react_1.default.createElement(Menu_1.Menu, null),\r\n            react_1.default.createElement(\"div\", { className: card_scss_1.default.textWrapper },\r\n                react_1.default.createElement(MainInfo_1.MainInfo, null),\r\n                react_1.default.createElement(Title_1.Title, null)),\r\n            react_1.default.createElement(Preview_1.Preview, null),\r\n            react_1.default.createElement(Controls_1.Controls, null))));\r\n}\r\nexports.Card = Card;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Card.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Comments/Comments.tsx":
+/*!******************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Comments/Comments.tsx ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Comments = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar comments_scss_1 = __importDefault(__webpack_require__(/*! ./comments.scss */ \"./src/shared/CardsList/Card/Controls/Comments/comments.scss\"));\r\nfunction Comments() {\r\n    return (react_1.default.createElement(\"button\", { className: comments_scss_1.default.openCommentsBtn }, \"27\"));\r\n}\r\nexports.Comments = Comments;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Comments/Comments.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Comments/comments.scss":
+/*!*******************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Comments/comments.scss ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// Exports\nmodule.exports = {\n\t\"openCommentsBtn\": \"comments__openCommentsBtn--3L7G8g\"\n};\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Comments/comments.scss?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Comments/index.ts":
+/*!**************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Comments/index.ts ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./Comments */ \"./src/shared/CardsList/Card/Controls/Comments/Comments.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Comments/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Controls.tsx":
+/*!*********************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Controls.tsx ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Controls = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar controls_scss_1 = __importDefault(__webpack_require__(/*! ./controls.scss */ \"./src/shared/CardsList/Card/Controls/controls.scss\"));\r\nvar Rate_1 = __webpack_require__(/*! ./Rate */ \"./src/shared/CardsList/Card/Controls/Rate/index.ts\");\r\nvar Comments_1 = __webpack_require__(/*! ./Comments */ \"./src/shared/CardsList/Card/Controls/Comments/index.ts\");\r\nvar Share_1 = __webpack_require__(/*! ./Share */ \"./src/shared/CardsList/Card/Controls/Share/index.ts\");\r\nvar Save_1 = __webpack_require__(/*! ./Save */ \"./src/shared/CardsList/Card/Controls/Save/index.ts\");\r\nfunction Controls() {\r\n    return (react_1.default.createElement(\"div\", { className: controls_scss_1.default.wrapper },\r\n        react_1.default.createElement(Rate_1.Rate, null),\r\n        react_1.default.createElement(Comments_1.Comments, null),\r\n        react_1.default.createElement(Share_1.Share, null),\r\n        react_1.default.createElement(Save_1.Save, null)));\r\n}\r\nexports.Controls = Controls;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Controls.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/DislikeBtn.tsx":
+/*!***************************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/DislikeBtn.tsx ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.DislikeBtn = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar dislikebtn_scss_1 = __importDefault(__webpack_require__(/*! ./dislikebtn.scss */ \"./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/dislikebtn.scss\"));\r\nfunction DislikeBtn() {\r\n    return (react_1.default.createElement(\"button\", { className: dislikebtn_scss_1.default.dislikeBtn },\r\n        react_1.default.createElement(\"svg\", { width: \"19\", height: \"10\", viewBox: \"0 0 19 10\", fill: \"none\", xmlns: \"http://www.w3.org/2000/svg\" },\r\n            react_1.default.createElement(\"path\", { d: \"M9.5 10L19 0L8.74228e-07 -1.66103e-06L9.5 10Z\", fill: \"#C4C4C4\" }))));\r\n}\r\nexports.DislikeBtn = DislikeBtn;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/DislikeBtn.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/dislikebtn.scss":
+/*!****************************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/dislikebtn.scss ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// Exports\nmodule.exports = {\n\t\"dislikeBtn\": \"dislikebtn__dislikeBtn--DR23UZ\"\n};\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/dislikebtn.scss?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/index.ts":
+/*!*********************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/index.ts ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./DislikeBtn */ \"./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/DislikeBtn.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/LikeBtn/LikeBtn.tsx":
+/*!*********************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/LikeBtn/LikeBtn.tsx ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.LikeBtn = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar likebtn_scss_1 = __importDefault(__webpack_require__(/*! ./likebtn.scss */ \"./src/shared/CardsList/Card/Controls/Rate/LikeBtn/likebtn.scss\"));\r\nfunction LikeBtn() {\r\n    return (react_1.default.createElement(\"button\", { className: likebtn_scss_1.default.likeBtn },\r\n        react_1.default.createElement(\"svg\", { width: \"19\", height: \"10\", viewBox: \"0 0 19 10\", fill: \"none\", xmlns: \"http://www.w3.org/2000/svg\" },\r\n            react_1.default.createElement(\"path\", { d: \"M9.5 0L0 10H19L9.5 0Z\", fill: \"#C4C4C4\" }))));\r\n}\r\nexports.LikeBtn = LikeBtn;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/LikeBtn/LikeBtn.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/LikeBtn/index.ts":
+/*!******************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/LikeBtn/index.ts ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./LikeBtn */ \"./src/shared/CardsList/Card/Controls/Rate/LikeBtn/LikeBtn.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/LikeBtn/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/LikeBtn/likebtn.scss":
+/*!**********************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/LikeBtn/likebtn.scss ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// Exports\nmodule.exports = {\n\t\"likeBtn\": \"likebtn__likeBtn--3nKPWN\"\n};\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/LikeBtn/likebtn.scss?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/Rate.tsx":
+/*!**********************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/Rate.tsx ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Rate = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar rate_scss_1 = __importDefault(__webpack_require__(/*! ./rate.scss */ \"./src/shared/CardsList/Card/Controls/Rate/rate.scss\"));\r\nvar LikeBtn_1 = __webpack_require__(/*! ./LikeBtn */ \"./src/shared/CardsList/Card/Controls/Rate/LikeBtn/index.ts\");\r\nvar RateCounter_1 = __webpack_require__(/*! ./RateCounter */ \"./src/shared/CardsList/Card/Controls/Rate/RateCounter/index.ts\");\r\nvar DislikeBtn_1 = __webpack_require__(/*! ./DislikeBtn */ \"./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/index.ts\");\r\nfunction Rate() {\r\n    return (react_1.default.createElement(\"div\", { className: rate_scss_1.default.wrapper },\r\n        react_1.default.createElement(LikeBtn_1.LikeBtn, null),\r\n        react_1.default.createElement(RateCounter_1.RateCounter, null),\r\n        react_1.default.createElement(DislikeBtn_1.DislikeBtn, null)));\r\n}\r\nexports.Rate = Rate;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/Rate.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.scss":
+/*!******************************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.scss ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// Exports\nmodule.exports = {\n\t\"rateCounter\": \"RateCounter__rateCounter--3xtN8O\"\n};\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.scss?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.tsx":
+/*!*****************************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.tsx ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.RateCounter = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar RateCounter_scss_1 = __importDefault(__webpack_require__(/*! ./RateCounter.scss */ \"./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.scss\"));\r\nfunction RateCounter() {\r\n    return (react_1.default.createElement(\"span\", { className: RateCounter_scss_1.default.rateCounter }, \"1212\"));\r\n}\r\nexports.RateCounter = RateCounter;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/RateCounter/index.ts":
+/*!**********************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/RateCounter/index.ts ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./RateCounter */ \"./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/RateCounter/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/index.ts":
+/*!**********************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/index.ts ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./Rate */ \"./src/shared/CardsList/Card/Controls/Rate/Rate.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/rate.scss":
+/*!***********************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/rate.scss ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// Exports\nmodule.exports = {\n\t\"wrapper\": \"rate__wrapper--13XwGa\"\n};\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/rate.scss?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Save/Save.tsx":
+/*!**********************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Save/Save.tsx ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Save = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar save_scss_1 = __importDefault(__webpack_require__(/*! ./save.scss */ \"./src/shared/CardsList/Card/Controls/Save/save.scss\"));\r\nfunction Save() {\r\n    return (react_1.default.createElement(\"button\", { className: save_scss_1.default.saveBtn }));\r\n}\r\nexports.Save = Save;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Save/Save.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Save/index.ts":
+/*!**********************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Save/index.ts ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./Save */ \"./src/shared/CardsList/Card/Controls/Save/Save.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Save/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Save/save.scss":
+/*!***********************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Save/save.scss ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// Exports\nmodule.exports = {\n\t\"saveBtn\": \"save__saveBtn--1fWPaX\"\n};\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Save/save.scss?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Share/Share.tsx":
+/*!************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Share/Share.tsx ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Share = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar share_scss_1 = __importDefault(__webpack_require__(/*! ./share.scss */ \"./src/shared/CardsList/Card/Controls/Share/share.scss\"));\r\nfunction Share() {\r\n    return (react_1.default.createElement(\"button\", { className: share_scss_1.default.shareBtn }));\r\n}\r\nexports.Share = Share;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Share/Share.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Share/index.ts":
+/*!***********************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Share/index.ts ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./Share */ \"./src/shared/CardsList/Card/Controls/Share/Share.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Share/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Share/share.scss":
+/*!*************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Share/share.scss ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// Exports\nmodule.exports = {\n\t\"shareBtn\": \"share__shareBtn--AUJQOv\"\n};\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Share/share.scss?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/controls.scss":
+/*!**********************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/controls.scss ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// Exports\nmodule.exports = {\n\t\"wrapper\": \"controls__wrapper--34qeoR\"\n};\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/controls.scss?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/index.ts":
+/*!*****************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/index.ts ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./Controls */ \"./src/shared/CardsList/Card/Controls/Controls.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/index.ts?");
 
 /***/ }),
 
@@ -201,7 +481,7 @@ eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Name = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar name_scss_1 = __importDefault(__webpack_require__(/*! ./name.scss */ \"./src/shared/CardsList/Card/MainInfo/Author/Name/name.scss\"));\r\nfunction Name() {\r\n    return (react_1.default.createElement(\"span\", { className: name_scss_1.default.name }, \"\\u0412\\u0438\\u043A\\u0442\\u043E\\u0440 \\u041F\\u044B\\u043B\\u0451\\u0432\"));\r\n}\r\nexports.Name = Name;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/MainInfo/Author/Name/Name.tsx?");
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Name = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar name_scss_1 = __importDefault(__webpack_require__(/*! ./name.scss */ \"./src/shared/CardsList/Card/MainInfo/Author/Name/name.scss\"));\r\nfunction Name() {\r\n    return (react_1.default.createElement(\"h3\", { className: name_scss_1.default.name },\r\n        react_1.default.createElement(\"a\", { href: \"#user-url\", className: name_scss_1.default.link }, \"\\u0412\\u0438\\u043A\\u0442\\u043E\\u0440 \\u041F\\u044B\\u043B\\u0451\\u0432\")));\r\n}\r\nexports.Name = Name;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/MainInfo/Author/Name/Name.tsx?");
 
 /***/ }),
 
@@ -224,7 +504,7 @@ eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("// Exports\nmodule.exports = {\n\t\"name\": \"name__name--3vt12i\"\n};\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/MainInfo/Author/Name/name.scss?");
+eval("// Exports\nmodule.exports = {\n\t\"name\": \"name__name--3vt12i\",\n\t\"link\": \"name__link--1CAXhX\"\n};\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/MainInfo/Author/Name/name.scss?");
 
 /***/ }),
 
@@ -321,6 +601,41 @@ eval("// Exports\nmodule.exports = {\n\t\"mainInfoWrapper\": \"maininfo__mainInf
 
 /***/ }),
 
+/***/ "./src/shared/CardsList/Card/Menu/Menu.tsx":
+/*!*************************************************!*\
+  !*** ./src/shared/CardsList/Card/Menu/Menu.tsx ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Menu = void 0;\r\nvar react_1 = __importStar(__webpack_require__(/*! react */ \"react\"));\r\nvar menu_scss_1 = __importDefault(__webpack_require__(/*! ./menu.scss */ \"./src/shared/CardsList/Card/Menu/menu.scss\"));\r\nfunction Menu() {\r\n    var _a = react_1.useState(false), isOpen = _a[0], setIsOpen = _a[1];\r\n    function openMenu(e) {\r\n        var target = e.currentTarget;\r\n        setIsOpen(function (prevState) { return isOpen = !prevState; });\r\n        target.classList.toggle(menu_scss_1.default.menuOpened);\r\n    }\r\n    return (react_1.default.createElement(\"button\", { className: menu_scss_1.default.menuBtn, onClick: function (e) { return openMenu(e); } },\r\n        react_1.default.createElement(\"span\", { className: menu_scss_1.default.point }),\r\n        react_1.default.createElement(\"span\", { className: menu_scss_1.default.point }),\r\n        react_1.default.createElement(\"span\", { className: menu_scss_1.default.point })));\r\n}\r\nexports.Menu = Menu;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Menu/Menu.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Menu/index.ts":
+/*!*************************************************!*\
+  !*** ./src/shared/CardsList/Card/Menu/index.ts ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./Menu */ \"./src/shared/CardsList/Card/Menu/Menu.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Menu/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Menu/menu.scss":
+/*!**************************************************!*\
+  !*** ./src/shared/CardsList/Card/Menu/menu.scss ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// Exports\nmodule.exports = {\n\t\"menuBtn\": \"menu__menuBtn--1Ji2pr\",\n\t\"menuOpened\": \"menu__menuOpened--P9NQXa\",\n\t\"point\": \"menu__point--VvEHx7\"\n};\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Menu/menu.scss?");
+
+/***/ }),
+
 /***/ "./src/shared/CardsList/Card/Preview/Preview.tsx":
 /*!*******************************************************!*\
   !*** ./src/shared/CardsList/Card/Preview/Preview.tsx ***!
@@ -398,7 +713,7 @@ eval("// Exports\nmodule.exports = {\n\t\"title\": \"title__title--1V8VyX\"\n};\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("// Exports\nmodule.exports = {\n\t\"card\": \"card__card--3SaHQ7\"\n};\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/card.scss?");
+eval("// Exports\nmodule.exports = {\n\t\"card\": \"card__card--3SaHQ7\",\n\t\"postLink\": \"card__postLink--1zLC8l\",\n\t\"article\": \"card__article--3df7WD\",\n\t\"textWrapper\": \"card__textWrapper--35U15O\"\n};\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/card.scss?");
 
 /***/ }),
 

@@ -4,3 +4,10 @@
     align-items: center;
     margin-bottom: 7px;
 }
+
+@media all and (min-width: 576px) {
+    .mainInfoWrapper {
+        order: 1;
+        margin-bottom: 0px;
+    }
+}

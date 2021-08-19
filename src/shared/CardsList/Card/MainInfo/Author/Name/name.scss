@@ -1,8 +1,28 @@
 @import "../../../../../variables";
 
 .name {
+    position: relative;
     margin-right: 8px;
+    font-weight: normal;
+}
+
+.link {
     font-size: 10px;
     line-height: 12px;
     color: $orange;
+}
+
+@media all and (min-width: 1024px) {
+    .link {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+
+@media all and (min-width: 1540px) {
+    .link:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
 }

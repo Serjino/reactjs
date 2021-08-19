@@ -3,8 +3,8 @@ import styles from './name.scss';
 
 export function Name() {
   return (
-    <span className={styles.name}>
-      Виктор Пылёв
-    </span>
+    <h3 className={styles.name}>
+      <a href="#user-url" className={styles.link}>Виктор Пылёв</a>
+    </h3>
   );
 }

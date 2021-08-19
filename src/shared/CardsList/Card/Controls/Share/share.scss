@@ -1,0 +1,20 @@
+@import '../../../../variables';
+
+.shareBtn {
+    display: inline-block;
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+    background-image: url('./share.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 8px;
+    background-color: $greyC4;
+    border-radius: 100px;
+}
+
+@media all and (min-width: 576px) {
+    .shareBtn {
+        display: none;
+    }
+}

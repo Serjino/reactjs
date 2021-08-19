@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    z-index: 2;
+}
+
+@media all and (min-width: 576px) {
+    .wrapper {
+        padding: 0;
+        padding-left: 71px;
+        margin-left: auto;
+        order: 2;
+    }
+}

@@ -5,3 +5,24 @@
     line-height: 12px;
     color: $grey9;
 }
+
+@media all and (min-width: 576px) {
+    .publicationDate {
+        order: 0;
+        margin-right: 5px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .publicationDate::before {
+        content: "опубликовано ";
+    }
+}
+
+@media all and (min-width: 1024px) {
+    .publicationDate {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+

@@ -5,3 +5,11 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+@media all and (min-width: 576px) {
+    .preview {
+        order: 0;
+        max-width: 190px;
+        min-height: 109px;
+    }
+}

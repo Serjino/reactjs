@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "3be6ce2171cec0086ed3";
+/******/ 	var hotCurrentHash = "723071fc094a69e7e1b9";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -843,6 +843,94 @@ eval("\r\nmodule.exports = function () {\r\n    return /[\\u001b\\u009b][[()#;?]
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Comments/comments.scss":
+/*!**********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Comments/comments.scss ***!
+  \**********************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./comments.svg */ \"./src/shared/CardsList/Card/Controls/Comments/comments.svg\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\n// Module\nexports.push([module.i, \".comments__openCommentsBtn--3L7G8g {\\n  display: flex;\\n  align-items: center;\\n  margin: 0 auto;\\n  padding-left: 21px;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  background-repeat: no-repeat;\\n  background-position: left 1px;\\n  background-size: 14px;\\n  font-weight: 500;\\n  font-size: 12px;\\n  line-height: 14px;\\n  vertical-align: middle;\\n  color: hsl(0, 0%, calc(77%));\\n}\\n\\n@media all and (min-width: 576px) {\\n  .comments__openCommentsBtn--3L7G8g {\\n    display: none;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"openCommentsBtn\": \"comments__openCommentsBtn--3L7G8g\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Comments/comments.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/dislikebtn.scss":
+/*!*******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/dislikebtn.scss ***!
+  \*******************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".dislikebtn__dislikeBtn--DR23UZ {\\n  width: 19px;\\n  height: 10px;\\n}\\n\\n@media all and (min-width: 1540px) {\\n  .dislikebtn__dislikeBtn--DR23UZ:hover {\\n    cursor: pointer;\\n  }\\n\\n  .dislikebtn__dislikeBtn--DR23UZ:hover > svg > path {\\n    fill: #CC6633;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"dislikeBtn\": \"dislikebtn__dislikeBtn--DR23UZ\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/dislikebtn.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Rate/LikeBtn/likebtn.scss":
+/*!*************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Rate/LikeBtn/likebtn.scss ***!
+  \*************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".likebtn__likeBtn--3nKPWN {\\n  width: 19px;\\n  height: 10px;\\n}\\n\\n@media all and (min-width: 1540px) {\\n  .likebtn__likeBtn--3nKPWN:hover {\\n    cursor: pointer;\\n  }\\n\\n  .likebtn__likeBtn--3nKPWN:hover > svg > path {\\n    fill: #A4CC33;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"likeBtn\": \"likebtn__likeBtn--3nKPWN\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/LikeBtn/likebtn.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.scss":
+/*!*********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.scss ***!
+  \*********************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".RateCounter__rateCounter--3xtN8O {\\n  padding: 0px 4px;\\n  font-weight: 500;\\n  font-size: 12px;\\n  line-height: 14px;\\n  color: hsl(0, 0%, calc(77%));\\n}\\n\\n@media all and (min-width: 576px) {\\n  .RateCounter__rateCounter--3xtN8O {\\n    padding: 7px 0px;\\n    color: #333;\\n  }\\n}\\n@media all and (min-width: 1024px) {\\n  .RateCounter__rateCounter--3xtN8O {\\n    font-size: 14px;\\n    line-height: 16px;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"rateCounter\": \"RateCounter__rateCounter--3xtN8O\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Rate/rate.scss":
+/*!**************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Rate/rate.scss ***!
+  \**************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".rate__wrapper--13XwGa {\\n  display: flex;\\n  align-items: center;\\n}\\n\\n@media all and (min-width: 576px) {\\n  .rate__wrapper--13XwGa {\\n    flex-direction: column;\\n    align-items: center;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"wrapper\": \"rate__wrapper--13XwGa\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/rate.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Save/save.scss":
+/*!**************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Save/save.scss ***!
+  \**************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./save.svg */ \"./src/shared/CardsList/Card/Controls/Save/save.svg\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\n// Module\nexports.push([module.i, \".save__saveBtn--1fWPaX {\\n  display: inline-block;\\n  width: 20px;\\n  height: 20px;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  background-repeat: no-repeat;\\n  background-position: center center;\\n  background-size: 8px;\\n  background-color: hsl(0, 0%, calc(77%));\\n  border-radius: 100px;\\n}\\n\\n@media all and (min-width: 576px) {\\n  .save__saveBtn--1fWPaX {\\n    display: none;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"saveBtn\": \"save__saveBtn--1fWPaX\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Save/save.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Share/share.scss":
+/*!****************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Share/share.scss ***!
+  \****************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./share.svg */ \"./src/shared/CardsList/Card/Controls/Share/share.svg\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\n// Module\nexports.push([module.i, \".share__shareBtn--AUJQOv {\\n  display: inline-block;\\n  margin-right: 15px;\\n  width: 20px;\\n  height: 20px;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  background-repeat: no-repeat;\\n  background-position: center center;\\n  background-size: 8px;\\n  background-color: hsl(0, 0%, calc(77%));\\n  border-radius: 100px;\\n}\\n\\n@media all and (min-width: 576px) {\\n  .share__shareBtn--AUJQOv {\\n    display: none;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"shareBtn\": \"share__shareBtn--AUJQOv\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Share/share.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/controls.scss":
+/*!*************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/controls.scss ***!
+  \*************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".controls__wrapper--34qeoR {\\n  display: flex;\\n  align-items: center;\\n  padding: 15px 20px;\\n  z-index: 2;\\n}\\n\\n@media all and (min-width: 576px) {\\n  .controls__wrapper--34qeoR {\\n    padding: 0;\\n    padding-left: 71px;\\n    margin-left: auto;\\n    order: 2;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"wrapper\": \"controls__wrapper--34qeoR\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/controls.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/MainInfo/Author/Avatar/avatar.scss":
 /*!*************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/MainInfo/Author/Avatar/avatar.scss ***!
@@ -861,7 +949,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".name__name--3vt12i {\\n  margin-right: 8px;\\n  font-size: 10px;\\n  line-height: 12px;\\n  color: #CC6633;\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"name\": \"name__name--3vt12i\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/MainInfo/Author/Name/name.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".name__name--3vt12i {\\n  position: relative;\\n  margin-right: 8px;\\n  font-weight: normal;\\n}\\n\\n.name__link--1CAXhX {\\n  font-size: 10px;\\n  line-height: 12px;\\n  color: #CC6633;\\n}\\n\\n@media all and (min-width: 1024px) {\\n  .name__link--1CAXhX {\\n    font-size: 14px;\\n    line-height: 16px;\\n  }\\n}\\n@media all and (min-width: 1540px) {\\n  .name__link--1CAXhX:hover {\\n    text-decoration: underline;\\n    cursor: pointer;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"name\": \"name__name--3vt12i\",\n\t\"link\": \"name__link--1CAXhX\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/MainInfo/Author/Name/name.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -872,7 +960,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".author__wrapper--4QKtOf {\\n  display: flex;\\n  align-items: center;\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"wrapper\": \"author__wrapper--4QKtOf\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/MainInfo/Author/author.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".author__wrapper--4QKtOf {\\n  display: flex;\\n  align-items: center;\\n}\\n\\n@media all and (min-width: 576px) {\\n  .author__wrapper--4QKtOf {\\n    order: 1;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"wrapper\": \"author__wrapper--4QKtOf\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/MainInfo/Author/author.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -883,7 +971,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".publicationdate__publicationDate--rdtl2X {\\n  font-size: 10px;\\n  line-height: 12px;\\n  color: hsl(0, 0%, calc(60%));\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"publicationDate\": \"publicationdate__publicationDate--rdtl2X\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/MainInfo/PublicationDate/publicationdate.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"@charset \\\"UTF-8\\\";\\n.publicationdate__publicationDate--rdtl2X {\\n  font-size: 10px;\\n  line-height: 12px;\\n  color: hsl(0, 0%, calc(60%));\\n}\\n\\n@media all and (min-width: 576px) {\\n  .publicationdate__publicationDate--rdtl2X {\\n    order: 0;\\n    margin-right: 5px;\\n  }\\n}\\n@media all and (min-width: 768px) {\\n  .publicationdate__publicationDate--rdtl2X::before {\\n    content: \\\"опубликовано \\\";\\n  }\\n}\\n@media all and (min-width: 1024px) {\\n  .publicationdate__publicationDate--rdtl2X {\\n    font-size: 14px;\\n    line-height: 16px;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"publicationDate\": \"publicationdate__publicationDate--rdtl2X\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/MainInfo/PublicationDate/publicationdate.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -894,7 +982,18 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".maininfo__mainInfoWrapper--3D24Au {\\n  display: flex;\\n  padding: 0 20px;\\n  align-items: center;\\n  margin-bottom: 7px;\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"mainInfoWrapper\": \"maininfo__mainInfoWrapper--3D24Au\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/MainInfo/maininfo.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".maininfo__mainInfoWrapper--3D24Au {\\n  display: flex;\\n  padding: 0 20px;\\n  align-items: center;\\n  margin-bottom: 7px;\\n}\\n\\n@media all and (min-width: 576px) {\\n  .maininfo__mainInfoWrapper--3D24Au {\\n    order: 1;\\n    margin-bottom: 0px;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"mainInfoWrapper\": \"maininfo__mainInfoWrapper--3D24Au\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/MainInfo/maininfo.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Menu/menu.scss":
+/*!*****************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Menu/menu.scss ***!
+  \*****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".menu__menuBtn--1Ji2pr {\\n  display: flex;\\n  align-items: center;\\n  justify-content: center;\\n  position: absolute;\\n  width: 31px;\\n  height: 31px;\\n  right: 14px;\\n  top: 17px;\\n  background-color: transparent;\\n  border-radius: 100px;\\n  z-index: 3;\\n}\\n\\n.menu__menuOpened--P9NQXa {\\n  background-color: rgba(51, 51, 51, 0.1);\\n}\\n\\n.menu__point--VvEHx7 {\\n  width: 5px;\\n  height: 5px;\\n  background-color: hsl(0, 0%, calc(78%));\\n  border-radius: 100%;\\n}\\n\\n.menu__point--VvEHx7:not(:last-of-type) {\\n  margin-right: 2.5px;\\n}\\n\\n@media all and (min-width: 576px) {\\n  .menu__menuBtn--1Ji2pr {\\n    display: flex;\\n    flex-direction: column;\\n    right: 66px;\\n    top: 59px;\\n  }\\n\\n  .menu__point--VvEHx7:not(:last-of-type) {\\n    margin-right: 0;\\n    margin-bottom: 2.5px;\\n  }\\n}\\n@media all and (min-width: 1024px) {\\n  .menu__menuBtn--1Ji2pr {\\n    right: 106px;\\n  }\\n}\\n@media all and (min-width: 1540px) {\\n  .menu__menuBtn--1Ji2pr:hover {\\n    background-color: rgba(51, 51, 51, 0.1);\\n    cursor: pointer;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"menuBtn\": \"menu__menuBtn--1Ji2pr\",\n\t\"menuOpened\": \"menu__menuOpened--P9NQXa\",\n\t\"point\": \"menu__point--VvEHx7\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Menu/menu.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -905,7 +1004,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./img/preview.png */ \"./src/shared/CardsList/Card/Preview/img/preview.png\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\n// Module\nexports.push([module.i, \".preview__preview--CVR2LV {\\n  width: 100%;\\n  min-height: 178px;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  background-repeat: no-repeat;\\n  background-position: center center;\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"preview\": \"preview__preview--CVR2LV\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Preview/preview.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./img/preview.png */ \"./src/shared/CardsList/Card/Preview/img/preview.png\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\n// Module\nexports.push([module.i, \".preview__preview--CVR2LV {\\n  width: 100%;\\n  min-height: 178px;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  background-repeat: no-repeat;\\n  background-position: center center;\\n}\\n\\n@media all and (min-width: 576px) {\\n  .preview__preview--CVR2LV {\\n    order: 0;\\n    max-width: 190px;\\n    min-height: 109px;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"preview\": \"preview__preview--CVR2LV\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Preview/preview.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -916,7 +1015,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".title__title--1V8VyX {\\n  padding: 0px 20px;\\n  margin-bottom: 13px;\\n  font-size: 16px;\\n  line-height: 19px;\\n  font-style: normal;\\n  font-weight: normal;\\n  color: #333;\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"title\": \"title__title--1V8VyX\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Title/title.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".title__title--1V8VyX {\\n  position: relative;\\n  padding: 0px 20px;\\n  margin-bottom: 13px;\\n  font-size: 16px;\\n  line-height: 19px;\\n  font-style: normal;\\n  font-weight: normal;\\n  color: #333;\\n}\\n\\n@media all and (min-width: 576px) {\\n  .title__title--1V8VyX {\\n    margin-bottom: 10px;\\n    order: 0;\\n  }\\n}\\n@media all and (min-width: 1024px) {\\n  .title__title--1V8VyX {\\n    font-size: 20px;\\n    line-height: 24px;\\n  }\\n}\\n@media all and (min-width: 1540px) {\\n  .title__title--1V8VyX:hover {\\n    color: #CC6633;\\n    cursor: pointer;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"title\": \"title__title--1V8VyX\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Title/title.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -927,7 +1026,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".card__card--3SaHQ7 {\\n  display: flex;\\n  align-items: center;\\n  padding: 22px 0px;\\n  background: #fff;\\n}\\n\\n.card__card--3SaHQ7 > * {\\n  flex: 1 1 100%;\\n}\\n\\n@media all and (min-width: 1024px) {\\n  .card__card--3SaHQ7 {\\n    padding: 20px 0px;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"card\": \"card__card--3SaHQ7\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/card.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".card__card--3SaHQ7 {\\n  position: relative;\\n  display: flex;\\n  align-items: center;\\n  width: 100%;\\n  padding: 22px 0px;\\n  background: #fff;\\n}\\n\\n.card__card--3SaHQ7 > * {\\n  flex: 1 1 100%;\\n}\\n\\n.card__postLink--1zLC8l {\\n  content: \\\"\\\";\\n  position: absolute;\\n  top: 0;\\n  right: 0;\\n  bottom: 0;\\n  left: 0;\\n}\\n\\n@media all and (min-width: 576px) {\\n  .card__article--3df7WD {\\n    display: flex;\\n  }\\n\\n  .card__card--3SaHQ7 {\\n    padding: 20px;\\n  }\\n\\n  .card__textWrapper--35U15O {\\n    display: flex;\\n    align-items: flex-start;\\n    justify-content: center;\\n    flex-direction: column;\\n    order: 1;\\n  }\\n}\\n@media all and (min-width: 1024px) {\\n  .card__card--3SaHQ7 {\\n    padding: 20px 40px;\\n  }\\n}\\n@media all and (min-width: 1540px) {\\n  .card__card--3SaHQ7 {\\n    padding: 20px 60px;\\n    border: 1px solid transparent;\\n  }\\n\\n  .card__card--3SaHQ7:hover {\\n    border: 1px solid hsl(0, 0%, calc(85%));\\n    cursor: pointer;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"card\": \"card__card--3SaHQ7\",\n\t\"postLink\": \"card__postLink--1zLC8l\",\n\t\"article\": \"card__article--3df7WD\",\n\t\"textWrapper\": \"card__textWrapper--35U15O\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/card.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -938,7 +1037,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"@media all and (min-width: 1024px) {\\n  .cardslist__cardlist--18bN0I {\\n    padding: 40px 0;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"cardlist\": \"cardslist__cardlist--18bN0I\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/cardslist.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"@media all and (min-width: 1024px) {\\n  .cardslist__cardlist--18bN0I {\\n    padding: 20px 0;\\n  }\\n}\\n@media all and (min-width: 1540px) {\\n  .cardslist__cardlist--18bN0I {\\n    padding: 40px 0;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"cardlist\": \"cardslist__cardlist--18bN0I\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/cardslist.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -1015,7 +1114,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nexports.push([module.i, \"@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);\"]);\n// Module\nexports.push([module.i, \"body {\\n  padding: 0;\\n  margin: 0;\\n  background-color: hsl(0, 0%, calc(96%));\\n  font-size: 14px;\\n  line-height: 16px;\\n  font-family: \\\"Roboto\\\", serif;\\n}\\n\\n* {\\n  color: #333;\\n  box-sizing: border-box;\\n  -webkit-font-smoothing: antialiased;\\n  -moz-osx-font-smoothing: grayscale;\\n}\\n\\nul {\\n  margin: 0;\\n  padding: 0;\\n  list-style: none;\\n}\\n\\na {\\n  text-decoration: none;\\n}\\n\\nh2 {\\n  margin: 0px;\\n  padding: 0px;\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/main.global.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nexports.push([module.i, \"@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);\"]);\n// Module\nexports.push([module.i, \"body {\\n  padding: 0;\\n  margin: 0;\\n  background-color: hsl(0, 0%, calc(96%));\\n  font-size: 14px;\\n  line-height: 16px;\\n  font-family: \\\"Roboto\\\", serif;\\n}\\n\\n* {\\n  color: #333;\\n  box-sizing: border-box;\\n  -webkit-font-smoothing: antialiased;\\n  -moz-osx-font-smoothing: grayscale;\\n}\\n\\nul {\\n  margin: 0;\\n  padding: 0;\\n  list-style: none;\\n}\\n\\na {\\n  text-decoration: none;\\n}\\n\\nh2 {\\n  margin: 0px;\\n  padding: 0px;\\n}\\n\\nbutton {\\n  padding: 0;\\n  margin: 0;\\n  background-color: transparent;\\n  outline: none;\\n  border: none;\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/main.global.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -1517,7 +1616,323 @@ eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod)
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Card = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar card_scss_1 = __importDefault(__webpack_require__(/*! ./card.scss */ \"./src/shared/CardsList/Card/card.scss\"));\r\nvar MainInfo_1 = __webpack_require__(/*! ./MainInfo */ \"./src/shared/CardsList/Card/MainInfo/index.ts\");\r\nvar Preview_1 = __webpack_require__(/*! ./Preview */ \"./src/shared/CardsList/Card/Preview/index.ts\");\r\nvar Title_1 = __webpack_require__(/*! ./Title */ \"./src/shared/CardsList/Card/Title/index.ts\");\r\nfunction Card() {\r\n    return (react_1.default.createElement(\"li\", { className: card_scss_1.default.card },\r\n        react_1.default.createElement(\"article\", null,\r\n            react_1.default.createElement(MainInfo_1.MainInfo, null),\r\n            react_1.default.createElement(Title_1.Title, null),\r\n            react_1.default.createElement(Preview_1.Preview, null))));\r\n}\r\nexports.Card = Card;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Card.tsx?");
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Card = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar card_scss_1 = __importDefault(__webpack_require__(/*! ./card.scss */ \"./src/shared/CardsList/Card/card.scss\"));\r\nvar MainInfo_1 = __webpack_require__(/*! ./MainInfo */ \"./src/shared/CardsList/Card/MainInfo/index.ts\");\r\nvar Preview_1 = __webpack_require__(/*! ./Preview */ \"./src/shared/CardsList/Card/Preview/index.ts\");\r\nvar Title_1 = __webpack_require__(/*! ./Title */ \"./src/shared/CardsList/Card/Title/index.ts\");\r\nvar Controls_1 = __webpack_require__(/*! ./Controls */ \"./src/shared/CardsList/Card/Controls/index.ts\");\r\nvar Menu_1 = __webpack_require__(/*! ./Menu */ \"./src/shared/CardsList/Card/Menu/index.ts\");\r\nfunction Card() {\r\n    return (react_1.default.createElement(\"li\", { className: card_scss_1.default.card },\r\n        react_1.default.createElement(\"a\", { href: \"#post-url\", className: card_scss_1.default.postLink }),\r\n        react_1.default.createElement(\"article\", { className: card_scss_1.default.article },\r\n            react_1.default.createElement(Menu_1.Menu, null),\r\n            react_1.default.createElement(\"div\", { className: card_scss_1.default.textWrapper },\r\n                react_1.default.createElement(MainInfo_1.MainInfo, null),\r\n                react_1.default.createElement(Title_1.Title, null)),\r\n            react_1.default.createElement(Preview_1.Preview, null),\r\n            react_1.default.createElement(Controls_1.Controls, null))));\r\n}\r\nexports.Card = Card;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Card.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Comments/Comments.tsx":
+/*!******************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Comments/Comments.tsx ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Comments = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar comments_scss_1 = __importDefault(__webpack_require__(/*! ./comments.scss */ \"./src/shared/CardsList/Card/Controls/Comments/comments.scss\"));\r\nfunction Comments() {\r\n    return (react_1.default.createElement(\"button\", { className: comments_scss_1.default.openCommentsBtn }, \"27\"));\r\n}\r\nexports.Comments = Comments;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Comments/Comments.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Comments/comments.scss":
+/*!*******************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Comments/comments.scss ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../node_modules/sass-loader/dist/cjs.js!./comments.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Comments/comments.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../node_modules/sass-loader/dist/cjs.js!./comments.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Comments/comments.scss\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../node_modules/sass-loader/dist/cjs.js!./comments.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Comments/comments.scss\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Comments/comments.scss?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Comments/comments.svg":
+/*!******************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Comments/comments.svg ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"919485a8087509a7aa9ecc76bc6d7957.svg\");\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Comments/comments.svg?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Comments/index.ts":
+/*!**************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Comments/index.ts ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./Comments */ \"./src/shared/CardsList/Card/Controls/Comments/Comments.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Comments/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Controls.tsx":
+/*!*********************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Controls.tsx ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Controls = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar controls_scss_1 = __importDefault(__webpack_require__(/*! ./controls.scss */ \"./src/shared/CardsList/Card/Controls/controls.scss\"));\r\nvar Rate_1 = __webpack_require__(/*! ./Rate */ \"./src/shared/CardsList/Card/Controls/Rate/index.ts\");\r\nvar Comments_1 = __webpack_require__(/*! ./Comments */ \"./src/shared/CardsList/Card/Controls/Comments/index.ts\");\r\nvar Share_1 = __webpack_require__(/*! ./Share */ \"./src/shared/CardsList/Card/Controls/Share/index.ts\");\r\nvar Save_1 = __webpack_require__(/*! ./Save */ \"./src/shared/CardsList/Card/Controls/Save/index.ts\");\r\nfunction Controls() {\r\n    return (react_1.default.createElement(\"div\", { className: controls_scss_1.default.wrapper },\r\n        react_1.default.createElement(Rate_1.Rate, null),\r\n        react_1.default.createElement(Comments_1.Comments, null),\r\n        react_1.default.createElement(Share_1.Share, null),\r\n        react_1.default.createElement(Save_1.Save, null)));\r\n}\r\nexports.Controls = Controls;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Controls.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/DislikeBtn.tsx":
+/*!***************************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/DislikeBtn.tsx ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.DislikeBtn = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar dislikebtn_scss_1 = __importDefault(__webpack_require__(/*! ./dislikebtn.scss */ \"./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/dislikebtn.scss\"));\r\nfunction DislikeBtn() {\r\n    return (react_1.default.createElement(\"button\", { className: dislikebtn_scss_1.default.dislikeBtn },\r\n        react_1.default.createElement(\"svg\", { width: \"19\", height: \"10\", viewBox: \"0 0 19 10\", fill: \"none\", xmlns: \"http://www.w3.org/2000/svg\" },\r\n            react_1.default.createElement(\"path\", { d: \"M9.5 10L19 0L8.74228e-07 -1.66103e-06L9.5 10Z\", fill: \"#C4C4C4\" }))));\r\n}\r\nexports.DislikeBtn = DislikeBtn;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/DislikeBtn.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/dislikebtn.scss":
+/*!****************************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/dislikebtn.scss ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../node_modules/sass-loader/dist/cjs.js!./dislikebtn.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/dislikebtn.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../node_modules/sass-loader/dist/cjs.js!./dislikebtn.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/dislikebtn.scss\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../node_modules/sass-loader/dist/cjs.js!./dislikebtn.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/dislikebtn.scss\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/dislikebtn.scss?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/index.ts":
+/*!*********************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/index.ts ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./DislikeBtn */ \"./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/DislikeBtn.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/LikeBtn/LikeBtn.tsx":
+/*!*********************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/LikeBtn/LikeBtn.tsx ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.LikeBtn = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar likebtn_scss_1 = __importDefault(__webpack_require__(/*! ./likebtn.scss */ \"./src/shared/CardsList/Card/Controls/Rate/LikeBtn/likebtn.scss\"));\r\nfunction LikeBtn() {\r\n    return (react_1.default.createElement(\"button\", { className: likebtn_scss_1.default.likeBtn },\r\n        react_1.default.createElement(\"svg\", { width: \"19\", height: \"10\", viewBox: \"0 0 19 10\", fill: \"none\", xmlns: \"http://www.w3.org/2000/svg\" },\r\n            react_1.default.createElement(\"path\", { d: \"M9.5 0L0 10H19L9.5 0Z\", fill: \"#C4C4C4\" }))));\r\n}\r\nexports.LikeBtn = LikeBtn;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/LikeBtn/LikeBtn.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/LikeBtn/index.ts":
+/*!******************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/LikeBtn/index.ts ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./LikeBtn */ \"./src/shared/CardsList/Card/Controls/Rate/LikeBtn/LikeBtn.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/LikeBtn/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/LikeBtn/likebtn.scss":
+/*!**********************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/LikeBtn/likebtn.scss ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../node_modules/sass-loader/dist/cjs.js!./likebtn.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Rate/LikeBtn/likebtn.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../node_modules/sass-loader/dist/cjs.js!./likebtn.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Rate/LikeBtn/likebtn.scss\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../node_modules/sass-loader/dist/cjs.js!./likebtn.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Rate/LikeBtn/likebtn.scss\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/LikeBtn/likebtn.scss?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/Rate.tsx":
+/*!**********************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/Rate.tsx ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Rate = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar rate_scss_1 = __importDefault(__webpack_require__(/*! ./rate.scss */ \"./src/shared/CardsList/Card/Controls/Rate/rate.scss\"));\r\nvar LikeBtn_1 = __webpack_require__(/*! ./LikeBtn */ \"./src/shared/CardsList/Card/Controls/Rate/LikeBtn/index.ts\");\r\nvar RateCounter_1 = __webpack_require__(/*! ./RateCounter */ \"./src/shared/CardsList/Card/Controls/Rate/RateCounter/index.ts\");\r\nvar DislikeBtn_1 = __webpack_require__(/*! ./DislikeBtn */ \"./src/shared/CardsList/Card/Controls/Rate/DislikeBtn/index.ts\");\r\nfunction Rate() {\r\n    return (react_1.default.createElement(\"div\", { className: rate_scss_1.default.wrapper },\r\n        react_1.default.createElement(LikeBtn_1.LikeBtn, null),\r\n        react_1.default.createElement(RateCounter_1.RateCounter, null),\r\n        react_1.default.createElement(DislikeBtn_1.DislikeBtn, null)));\r\n}\r\nexports.Rate = Rate;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/Rate.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.scss":
+/*!******************************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.scss ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../node_modules/sass-loader/dist/cjs.js!./RateCounter.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../node_modules/sass-loader/dist/cjs.js!./RateCounter.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.scss\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../node_modules/sass-loader/dist/cjs.js!./RateCounter.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.scss\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.scss?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.tsx":
+/*!*****************************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.tsx ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.RateCounter = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar RateCounter_scss_1 = __importDefault(__webpack_require__(/*! ./RateCounter.scss */ \"./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.scss\"));\r\nfunction RateCounter() {\r\n    return (react_1.default.createElement(\"span\", { className: RateCounter_scss_1.default.rateCounter }, \"1212\"));\r\n}\r\nexports.RateCounter = RateCounter;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/RateCounter/index.ts":
+/*!**********************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/RateCounter/index.ts ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./RateCounter */ \"./src/shared/CardsList/Card/Controls/Rate/RateCounter/RateCounter.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/RateCounter/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/index.ts":
+/*!**********************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/index.ts ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./Rate */ \"./src/shared/CardsList/Card/Controls/Rate/Rate.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Rate/rate.scss":
+/*!***********************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Rate/rate.scss ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../node_modules/sass-loader/dist/cjs.js!./rate.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Rate/rate.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../node_modules/sass-loader/dist/cjs.js!./rate.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Rate/rate.scss\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../node_modules/sass-loader/dist/cjs.js!./rate.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Rate/rate.scss\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Rate/rate.scss?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Save/Save.tsx":
+/*!**********************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Save/Save.tsx ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Save = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar save_scss_1 = __importDefault(__webpack_require__(/*! ./save.scss */ \"./src/shared/CardsList/Card/Controls/Save/save.scss\"));\r\nfunction Save() {\r\n    return (react_1.default.createElement(\"button\", { className: save_scss_1.default.saveBtn }));\r\n}\r\nexports.Save = Save;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Save/Save.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Save/index.ts":
+/*!**********************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Save/index.ts ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./Save */ \"./src/shared/CardsList/Card/Controls/Save/Save.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Save/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Save/save.scss":
+/*!***********************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Save/save.scss ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../node_modules/sass-loader/dist/cjs.js!./save.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Save/save.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../node_modules/sass-loader/dist/cjs.js!./save.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Save/save.scss\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../node_modules/sass-loader/dist/cjs.js!./save.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Save/save.scss\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Save/save.scss?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Save/save.svg":
+/*!**********************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Save/save.svg ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"1dbe359c8d42b86daff54353dbfe2616.svg\");\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Save/save.svg?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Share/Share.tsx":
+/*!************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Share/Share.tsx ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Share = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar share_scss_1 = __importDefault(__webpack_require__(/*! ./share.scss */ \"./src/shared/CardsList/Card/Controls/Share/share.scss\"));\r\nfunction Share() {\r\n    return (react_1.default.createElement(\"button\", { className: share_scss_1.default.shareBtn }));\r\n}\r\nexports.Share = Share;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Share/Share.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Share/index.ts":
+/*!***********************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Share/index.ts ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./Share */ \"./src/shared/CardsList/Card/Controls/Share/Share.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Share/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Share/share.scss":
+/*!*************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Share/share.scss ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../node_modules/sass-loader/dist/cjs.js!./share.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Share/share.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../node_modules/sass-loader/dist/cjs.js!./share.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Share/share.scss\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../node_modules/sass-loader/dist/cjs.js!./share.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/Share/share.scss\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Share/share.scss?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/Share/share.svg":
+/*!************************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/Share/share.svg ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"760cbbd0f9b6bca98fc5ada364f6e19b.svg\");\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/Share/share.svg?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/controls.scss":
+/*!**********************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/controls.scss ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../node_modules/sass-loader/dist/cjs.js!./controls.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/controls.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../node_modules/sass-loader/dist/cjs.js!./controls.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/controls.scss\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../node_modules/sass-loader/dist/cjs.js!./controls.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Controls/controls.scss\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/controls.scss?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Controls/index.ts":
+/*!*****************************************************!*\
+  !*** ./src/shared/CardsList/Card/Controls/index.ts ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./Controls */ \"./src/shared/CardsList/Card/Controls/Controls.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Controls/index.ts?");
 
 /***/ }),
 
@@ -1588,7 +2003,7 @@ eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Name = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar name_scss_1 = __importDefault(__webpack_require__(/*! ./name.scss */ \"./src/shared/CardsList/Card/MainInfo/Author/Name/name.scss\"));\r\nfunction Name() {\r\n    return (react_1.default.createElement(\"span\", { className: name_scss_1.default.name }, \"\\u0412\\u0438\\u043A\\u0442\\u043E\\u0440 \\u041F\\u044B\\u043B\\u0451\\u0432\"));\r\n}\r\nexports.Name = Name;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/MainInfo/Author/Name/Name.tsx?");
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Name = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar name_scss_1 = __importDefault(__webpack_require__(/*! ./name.scss */ \"./src/shared/CardsList/Card/MainInfo/Author/Name/name.scss\"));\r\nfunction Name() {\r\n    return (react_1.default.createElement(\"h3\", { className: name_scss_1.default.name },\r\n        react_1.default.createElement(\"a\", { href: \"#user-url\", className: name_scss_1.default.link }, \"\\u0412\\u0438\\u043A\\u0442\\u043E\\u0440 \\u041F\\u044B\\u043B\\u0451\\u0432\")));\r\n}\r\nexports.Name = Name;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/MainInfo/Author/Name/Name.tsx?");
 
 /***/ }),
 
@@ -1705,6 +2120,41 @@ eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("var api = __webpack_require__(/*! ../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../node_modules/sass-loader/dist/cjs.js!./maininfo.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/MainInfo/maininfo.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../node_modules/sass-loader/dist/cjs.js!./maininfo.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/MainInfo/maininfo.scss\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../node_modules/sass-loader/dist/cjs.js!./maininfo.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/MainInfo/maininfo.scss\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/MainInfo/maininfo.scss?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Menu/Menu.tsx":
+/*!*************************************************!*\
+  !*** ./src/shared/CardsList/Card/Menu/Menu.tsx ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Menu = void 0;\r\nvar react_1 = __importStar(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar menu_scss_1 = __importDefault(__webpack_require__(/*! ./menu.scss */ \"./src/shared/CardsList/Card/Menu/menu.scss\"));\r\nfunction Menu() {\r\n    var _a = react_1.useState(false), isOpen = _a[0], setIsOpen = _a[1];\r\n    function openMenu(e) {\r\n        var target = e.currentTarget;\r\n        setIsOpen(function (prevState) { return isOpen = !prevState; });\r\n        target.classList.toggle(menu_scss_1.default.menuOpened);\r\n    }\r\n    return (react_1.default.createElement(\"button\", { className: menu_scss_1.default.menuBtn, onClick: function (e) { return openMenu(e); } },\r\n        react_1.default.createElement(\"span\", { className: menu_scss_1.default.point }),\r\n        react_1.default.createElement(\"span\", { className: menu_scss_1.default.point }),\r\n        react_1.default.createElement(\"span\", { className: menu_scss_1.default.point })));\r\n}\r\nexports.Menu = Menu;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Menu/Menu.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Menu/index.ts":
+/*!*************************************************!*\
+  !*** ./src/shared/CardsList/Card/Menu/index.ts ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./Menu */ \"./src/shared/CardsList/Card/Menu/Menu.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Menu/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/CardsList/Card/Menu/menu.scss":
+/*!**************************************************!*\
+  !*** ./src/shared/CardsList/Card/Menu/menu.scss ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../node_modules/sass-loader/dist/cjs.js!./menu.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Menu/menu.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../node_modules/sass-loader/dist/cjs.js!./menu.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Menu/menu.scss\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../node_modules/sass-loader/dist/cjs.js!./menu.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/shared/CardsList/Card/Menu/menu.scss\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Menu/menu.scss?");
 
 /***/ }),
 
@@ -2076,7 +2526,7 @@ eval("var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/run
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! C:\\Users\\1\\Desktop\\Portfolio\\my-projects\\reactjs\\src\\client\\index.jsx */\"./src/client/index.jsx\");\nmodule.exports = __webpack_require__(/*! webpack-hot-middleware/client?path=http://localhost:3001/static/__webpack_hmr */\"./node_modules/webpack-hot-middleware/client.js?path=http://localhost:3001/static/__webpack_hmr\");\n\n\n//# sourceURL=webpack:///multi_./src/client/index.jsx_webpack-hot-middleware/client?");
+eval("__webpack_require__(/*! C:\\Users\\Admin\\Desktop\\Portfolio\\my-projects\\reactjs\\src\\client\\index.jsx */\"./src/client/index.jsx\");\nmodule.exports = __webpack_require__(/*! webpack-hot-middleware/client?path=http://localhost:3001/static/__webpack_hmr */\"./node_modules/webpack-hot-middleware/client.js?path=http://localhost:3001/static/__webpack_hmr\");\n\n\n//# sourceURL=webpack:///multi_./src/client/index.jsx_webpack-hot-middleware/client?");
 
 /***/ })
 

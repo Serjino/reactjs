@@ -1,6 +1,7 @@
 @import '../../../variables';
 
 .title {
+    position: relative;
     padding: 0px 20px;
     margin-bottom: 13px;
     font-size: 16px;
@@ -8,4 +9,25 @@
     font-style: normal;
     font-weight: normal;
     color: $black;
+}
+
+@media all and (min-width: 576px) {
+    .title {
+        margin-bottom: 10px;
+        order: 0;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    .title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media all and (min-width: 1540px) {
+    .title:hover {
+        color: $orange;
+        cursor: pointer;
+    }
 }

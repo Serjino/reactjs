@@ -1,0 +1,15 @@
+@import '../../../../../variables';
+
+.likeBtn {
+    width: 19px;
+    height: 10px;
+}
+
+@media all and (min-width: 1540px) {
+    .likeBtn:hover {
+        cursor: pointer;
+    }
+    .likeBtn:hover > svg > path {
+        fill: $green;
+    }
+}

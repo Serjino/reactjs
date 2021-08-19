@@ -1,0 +1,23 @@
+@import '../../../../../variables';
+
+.rateCounter {
+    padding: 0px 4px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: $greyC4;
+}
+
+@media all and (min-width: 576px) {
+    .rateCounter {
+        padding: 7px 0px;
+        color: $black;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    .rateCounter {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

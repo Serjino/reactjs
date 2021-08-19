@@ -1,0 +1,15 @@
+@import '../../../../../variables';
+
+.dislikeBtn {
+    width: 19px;
+    height: 10px;
+}
+
+@media all and (min-width: 1540px) {
+    .dislikeBtn:hover {
+        cursor: pointer;
+    }
+    .dislikeBtn:hover > svg > path {
+        fill: $orange;
+    }
+}

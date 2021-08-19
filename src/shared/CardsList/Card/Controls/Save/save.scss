@@ -1,0 +1,19 @@
+@import '../../../../variables';
+
+.saveBtn {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./save.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 8px;
+    background-color: $greyC4;
+    border-radius: 100px;
+}
+
+@media all and (min-width: 576px) {
+    .saveBtn {
+        display: none;
+    }
+}

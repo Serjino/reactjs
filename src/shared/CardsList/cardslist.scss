@@ -1,5 +1,11 @@
 @media all and (min-width: 1024px) {
     .cardlist {
+        padding: 20px 0;
+    }
+}
+
+@media all and (min-width: 1540px) {
+    .cardlist {
         padding: 40px 0;
     }
 }

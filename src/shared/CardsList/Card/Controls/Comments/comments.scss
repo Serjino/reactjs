@@ -1,0 +1,23 @@
+@import '../../../../variables';
+
+.openCommentsBtn {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 21px;
+    background-image: url('./comments.svg');
+    background-repeat: no-repeat;
+    background-position: left 1px;
+    background-size: 14px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    vertical-align: middle;
+    color: $greyC4;
+}
+
+@media all and (min-width: 576px) {
+    .openCommentsBtn {
+        display: none;
+    }
+}

@@ -1,8 +1,10 @@
 @import '../../variables';
 
 .card {
+    position: relative;
     display: flex;
     align-items: center;
+    width: 100%;
     padding: 22px 0px;
     background: $white;
 }
@@ -11,8 +13,50 @@
     flex: 1 1 100%;
 }
 
-@media all and (min-width: 1024px) {
+.postLink {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+@media all and (min-width: 576px) {
+    .article {
+        display: flex;
+    }
+
     .card {
-        padding: 20px 0px;
+        padding: 20px;
+    }
+
+    .textWrapper {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        order: 1;
     }
 }
+
+@media all and (min-width: 1024px) {
+    .card {
+        padding: 20px 40px;
+    }
+
+}
+
+@media all and (min-width: 1540px) {
+    .card {
+        padding: 20px 60px;
+        border: 1px solid transparent;
+    }
+
+    .card:hover {
+        border: 1px solid $greyD9;
+        cursor: pointer;
+    }
+
+}
+
